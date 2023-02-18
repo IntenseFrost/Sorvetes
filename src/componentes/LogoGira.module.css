@@ -1,0 +1,45 @@
+
+.boxLogo{
+   
+    width: 15em;
+    height: 15em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgCentro{
+    position: relative;
+    bottom: 150px;
+    left: 60px;
+    animation: pulsar 5s linear infinite;
+
+}
+
+.imgBorda{
+
+    animation: loading 25s linear infinite;
+}
+
+@keyFrames loading{
+    from{
+        tranform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyFrames pulsar{
+    0%{
+        transform: scale(1.0) ;
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    100%{
+
+        transform: scale(1.0);
+    }
+
+}
+

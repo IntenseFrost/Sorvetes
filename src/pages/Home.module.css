@@ -1,0 +1,39 @@
+.boxGeral{
+    width: 90vw;
+   margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.boxInf{
+    background-color: transparent  ;
+    color: white;
+    display: block;
+   text-align: center;
+
+}
+
+.fotosProp{
+    width: 100% ;
+}
+
+.btnWhats{
+   position:fixed;
+   width:150px;
+   height:150px;
+   bottom:-30px;
+   right:-30px;
+ 
+   color:#FFF;
+   border-radius:50px;
+   text-align:center;
+   font-size:30px;
+   
+  z-index:1000;
+  position: fixed;
+}
